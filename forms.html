@@ -9,11 +9,26 @@
 <body>
     <h1><strong>Register</strong></h1>
     <form>
-        <input type="text" placeholder="Hermoine" required>
-        <input type="text" placeholder="Granger" required> 
-        <input type="email" placeholder="Email Address" required>
-        <input type="password" placeholder="password" required>
-        <p>Birthday</p>
+        <label for="first">First Name: </label>
+        <input name="first" id="first" type="text" placeholder="Hermoine" required>
+        <label for="last">Last Name: </label>
+        <input name="last" id="last" type="text" placeholder="Granger" required>
+        <div>
+            <label for="email">Email Address: </label>
+            <input name="email" id="email" type="email" placeholder="Email Address" required>
+            <label for="password">Password: </label>
+            <input name="password" id="password" type="password" placeholder="password" pattern=".{5,10}" title="5 to 10 characters" required>
+        </div>
+        <div>
+            <label for ="male"> Male: </label>
+            <input name="sexChoice" id="male" type="radio" value="MALE"> 
+            <label for ="female"> Female: </label>
+            <input name="sexChoice" id="female" type="radio" value="FEMALE">
+            <label for ="other"> Other: </label>
+            <input name="sexChoice" id="other" type="radio" value="OTHER">
+        </div>
+        <div> 
+       <label>Birthday: </label>
         <select id="day">
             <option value="">Day</option>
             <option value="1">1</option>
@@ -22,23 +37,26 @@
         </select>
         <select id="month">
                 <option value="">Month</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
+                <option value="1">Jan</option>
+                <option value="2">Feb</option>
+                <option value="3">March</option>
             </select>
             <select id="year">
                     <option value="">Year</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
+                    <option value="1">1999</option>
+                    <option value="2">2000</option>
+                    <option value="3">2001</option>
                 </select>
-        <label for="agreement">I agree to these terms and conditions</label>
-        <input type="checkbox" id="agreement" required>
-        <input type="submit">
+        </div>
+        <div>
+            <label for="agreement">I agree to these terms and conditions</label>
+            <input name="agreement" type="checkbox" id="agreement" required>
+        </div>
+        <input type="submit"> 
+    <!-- this also works for a submit button in a form but has to be at the bottom of the form <button>Submit</button>  -->
     </form>
      
     
-
     
 </body>
 </html>

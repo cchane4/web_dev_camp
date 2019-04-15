@@ -9,3 +9,8 @@ li{
 .completed{ 
     text-decoration: line-through; 
 }
+
+/* chooses all ul's that are adjacent to the h1 tag*/
+h1 + ul { 
+    border: 2px dotted red ; 
+}

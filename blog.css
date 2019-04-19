@@ -1,0 +1,31 @@
+body { 
+    width: 75%; 
+    border: 20px solid #bdc3c7; 
+    margin: auto;
+    height: 760px; 
+
+}
+h1 { 
+    color: #2c3e50; 
+}
+
+.date { 
+    color: #3498db;
+    font-family: Helvetica; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+.entry { 
+    margin-left: 5%; 
+    margin-right: 5%;
+    border-bottom: 1px solid lightgrey;  
+}
+
+.first_paragraph { 
+    border-left: 3px solid lightgrey; 
+}
+
+p.first_paragraph  { 
+    padding-left: .5%; 
+}

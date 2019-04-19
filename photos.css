@@ -4,3 +4,14 @@ img {
     width: 30%; /* percent is relative to the parent element (body) */ 
     margin: 1.66%; /* 10% extra spacing divided by 6 margins */
 }
+
+p { 
+    font-family: 'Scada', sans-serif;
+    font-weight: 800; 
+    font-size: 30px; 
+    text-transform: uppercase; 
+    margin-left: 1.66%; 
+    border-bottom: 5px solid lightcoral; 
+    padding-bottom: 1%; 
+    width: 30%; 
+}

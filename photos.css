@@ -1,0 +1,6 @@
+img { 
+    float: left;  /*gets rid of the whitespace that html has between images 
+    and takes the elements out of the normal flow (stacked) and puts them side by side*/
+    width: 30%; /* percent is relative to the parent element (body) */ 
+    margin: 1.66%; /* 10% extra spacing divided by 6 margins */
+}

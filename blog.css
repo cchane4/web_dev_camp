@@ -1,31 +1,40 @@
 body { 
     width: 75%; 
+    max-width: 700px;
     border: 20px solid #bdc3c7; 
-    margin: auto;
-    height: 760px; 
-
+    margin: 20px auto;
+    padding: 20px;
+    font-family: "Source Sans Pro"; 
+    font-weight: 700; 
+    font-weight: 700; 
 }
-h1 { 
-    color: #2c3e50; 
+h2 { 
+    color: #2c3e50;
+    font-size: 2.0 rem;  
 }
 
 .date { 
     color: #3498db;
     font-family: Helvetica; 
     text-transform: uppercase; 
-    letter-spacing: 1px; 
+    letter-spacing: .2rem; 
 }
 
 .entry { 
     margin-left: 5%; 
-    margin-right: 5%;
-    border-bottom: 1px solid lightgrey;  
+    margin-right: 5%;  
 }
 
 .first_paragraph { 
-    border-left: 3px solid lightgrey; 
+    border-left: 5px solid lightgrey; 
 }
 
 p.first_paragraph  { 
     padding-left: .5%; 
+}
+
+hr { 
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }

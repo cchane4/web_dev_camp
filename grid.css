@@ -2,3 +2,8 @@
     background-color: lightblue; 
     border: 3px solid black; 
 }
+
+.show-smaller { 
+ background-color: grey; 
+ border :3px dotted red; 
+}

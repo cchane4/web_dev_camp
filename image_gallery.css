@@ -1,6 +1,13 @@
-body{ 
-    background-color: aqua; 
+
+
+/*dark blue: #2c3e50
+light grey: #ecfof1
+*/
+img { 
+    width: 25%; 
+    height: 200px; 
 }
 
-dark blue: #2c3e50
-light grey: #ecfof1
+.jumbotron{ 
+    text-align: center; 
+}

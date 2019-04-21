@@ -1,13 +1,11 @@
-
-
-/*dark blue: #2c3e50
+/*
 light grey: #ecfof1
 */
-img { 
-    width: 25%; 
-    height: 200px; 
-}
 
 .jumbotron{ 
     text-align: center; 
+}
+
+body { 
+    padding-top: 70px; 
 }

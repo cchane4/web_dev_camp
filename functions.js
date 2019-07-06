@@ -6,6 +6,14 @@ let isEven = (num) => {
     return(false); 
 }
 
+/* the above function can also be rewritten as 
+let isEven = (num) => { 
+    return (num%2 === 0) 
+
+this works because the return statement equals a boolean evaluation 
+so the ouput will by default be true or false
+*/ 
+
 
 //function to find factorials 
 let factorial = (num) => { 
@@ -14,6 +22,17 @@ let factorial = (num) => {
     }
     return num * factorial(num - 1); 
 }
+/* the long way to do write the factorial function 
+ let factorial = (num) => { 
+     // define a result variable 
+     let result = 1; 
+     // calculate the factor and stor the variable
+     for (let i = 2; i <= num ; i++){ 
+         result = result * i; 
+     }
+     // output the result variable
+     return result
+ }
 
 // find all occurences of  a hyphen and replace with underscores
 let kebabToSnake = (word) => { 

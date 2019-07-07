@@ -33,10 +33,10 @@ let factorial = (num) => {
      // output the result variable
      return result
  }
+ */ 
 
 // find all occurences of  a hyphen and replace with underscores
 let kebabToSnake = (word) => { 
     return word.replace( /-/g,"_"); 
 
 }
-

@@ -1,5 +1,11 @@
 let todos = ["Buy some apples"]; 
 let input = prompt("What would you like to do?"); 
+
+/*condition for the prompt to be repeated as long as 
+the input is not equal to quit */ 
+while(input !== "quit"){ 
+//handle input 
+//ask again for new input
 /* if the input from the prompt is evaluated and found to equal the string "list"
 then, it should print to the console whatever is in the todos array */
 if (input === "list"){ 
@@ -12,14 +18,8 @@ else if (input === "new"){
    let newTodo = prompt('Add a new todo to the list'); 
    todos.push(newTodo); 
 }
+input = prompt("What would you like to do?"); 
 
-
-
-
-/*condition for the prompt to be repeated as long as 
-the input is not equal to quit */ 
-while(input !== "quit"){ 
-//handle input 
-//ask again for new input
 }
+//this is the logic that will run if quit is input in the prompted text field
 console.log("ok, you quit the application"); 

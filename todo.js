@@ -19,7 +19,6 @@ else if (input === "new"){
    todos.push(newTodo); 
 }
 input = prompt("What would you like to do?"); 
-
 }
 //this is the logic that will run if quit is input in the prompted text field
 console.log("ok, you quit the application"); 

@@ -5,8 +5,7 @@ window.setTimeout(() =>  {
     let input = prompt("What would you like to do?");
 
 let listTodos = () => { 
-    console.log("********"); 
-    // now printing the index 
+    console.log("********");  
     todos.forEach((todo_item, index) => { 
         console.log(index + ": " + todo_item); 
     }); 

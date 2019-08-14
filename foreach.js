@@ -14,3 +14,15 @@ let colors = ["red", "yellow","blue"];
     console.log(color); 
 
 }); 
+
+
+
+/*here is what you are actually doing in heightened
+javascript language terms */
+
+// Array.prototype.myForEach = (func) => { 
+//     for (let i = 0; i < this.length; i++){ 
+//         func(this[i]); 
+//     }
+// }
+
